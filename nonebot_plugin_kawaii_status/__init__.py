@@ -9,7 +9,7 @@ require("nonebot_plugin_alconna")
 from nonebot_plugin_alconna.uniseg import UniMessage
 from nonebot_plugin_alconna import Command, __plugin_meta__
 
-from .config import Config
+from .config import Config, ScopedConfig
 
 __version__ = "0.1.1"
 __plugin_meta__ = PluginMetadata(
@@ -30,7 +30,7 @@ __plugin_meta__ = PluginMetadata(
 
 from .drawer import draw
 
-config = get_plugin_config(Config).status
+config: ScopedConfig = get_plugin_config(Config).status
 
 
 def to_me() -> Rule:
