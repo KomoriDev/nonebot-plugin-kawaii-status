@@ -25,7 +25,7 @@ class CPUInfo:
 class RAMInfo:
     """RAM 信息（单位：GB）"""
 
-    total: int
+    total: float
     """RAM 总量"""
     usage: float
     """当前 RAM 占用"""
