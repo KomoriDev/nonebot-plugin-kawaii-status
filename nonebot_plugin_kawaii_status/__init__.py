@@ -2,12 +2,12 @@
 
 from nonebot.rule import Rule
 from nonebot.permission import SUPERUSER
-from nonebot.plugin import PluginMetadata
 from nonebot import require, get_plugin_config
+from nonebot.plugin import PluginMetadata, inherit_supported_adapters
 
 require("nonebot_plugin_alconna")
+from nonebot_plugin_alconna import Command
 from nonebot_plugin_alconna.uniseg import UniMessage
-from nonebot_plugin_alconna import Command, __plugin_meta__
 
 from .config import Config, ScopedConfig
 
@@ -19,7 +19,7 @@ __plugin_meta__ = PluginMetadata(
     type="application",
     homepage="https://github.com/KomoriDev/nonebot-plugin-kawaii-status",
     config=Config,
-    supported_adapters=__plugin_meta__.supported_adapters,
+    supported_adapters=inherit_supported_adapters("nonebot_plugin_alconna"),
     extra={
         "unique_name": "KaWaii Status",
         "example": "/status",
