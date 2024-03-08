@@ -15,6 +15,9 @@
 
 _✨ NoneBot2 服务器状态查看插件 ✨_
 
+<a href="">
+  <img src="https://img.shields.io/pypi/v/nonebot-plugin-kawaii-status.svg" alt="pypi"
+</a>
 <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
 <a href="https://pdm.fming.dev">
   <img src="https://img.shields.io/badge/pdm-managed-blueviolet" alt="pdm-managed">
