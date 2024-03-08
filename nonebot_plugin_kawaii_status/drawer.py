@@ -3,13 +3,13 @@ from io import BytesIO
 
 import nonebot
 from nonebot import get_plugin_config
+from PIL import Image, ImageDraw, ImageFont
 from nonebot.config import Config as BotConfig
 from nonebot import __version__ as __nb_version__
-from PIL import Image, ImageDraw, ImageFont
 
-from . import __version__ as __status_version__
 from .model import get_status_info
 from .utils import truncate_string
+from . import __version__ as __status_version__
 from .path import (
     bg_img_path,
     adlam_font_path,
