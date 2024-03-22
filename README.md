@@ -66,7 +66,7 @@ plugins = ["nonebot_plugin_kawaii_status"]
 
 ## 鸣谢
 
-- [`SoraBot`](github.com/netsora/SoraBot)：基于 Nonebot2 开发，互通多平台，超可爱的林汐酱 ~~（自产自销）~~
+- [`SoraBot`](https://github.com/netsora/SoraBot)：基于 Nonebot2 开发，互通多平台，超可爱的林汐酱 ~~（自产自销）~~
 
 ## 许可证
 
