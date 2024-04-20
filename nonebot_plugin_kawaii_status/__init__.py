@@ -51,7 +51,7 @@ status = (
     .action(lambda: UniMessage.image(raw=draw()))
     .build(
         rule=to_me(),
-        aliases={"状态"},
+        aliases={"状态", "运行状态"},
         use_cmd_start=True,
         permission=SUPERUSER if config.only_superuser else None,
     )
