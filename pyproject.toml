@@ -12,6 +12,7 @@ dependencies = [
     "psutil>=5.9.8",
     "pillow>=10.2.0",
     "nonebot2[fastapi]>=2.2.0",
+    "py-cpuinfo>=9.0.0",
 ]
 license = { text = "MIT" }
 
