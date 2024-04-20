@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-kawaii-status"
-version = "0.1.3"
+version = "0.1.4"
 description = "NoneBot2 服务器状态查看插件 / View server status for NoneBot2"
 readme = "README.md"
 requires-python = ">=3.8"
