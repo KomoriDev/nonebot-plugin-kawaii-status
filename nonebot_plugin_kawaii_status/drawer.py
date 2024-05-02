@@ -103,7 +103,7 @@ def draw() -> bytes:
         )
         content.text(
             (352, 1431),
-            f"{system.system} {system.release}",
+            f"{truncate_string(system.system + ' ' + system.release)}",
             font=adlam_fnt,
             fill=details_color,
         )
