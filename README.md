@@ -1,12 +1,13 @@
 <!-- markdownlint-disable MD033 MD036 MD041 MD045 -->
 <div align="center">
   <a href="https://v2.nonebot.dev/store">
-    <img src="https://raw.githubusercontent.com/A-kirami/nonebot-plugin-template/resources/nbp_logo.png" width="180" height="180" alt="logo">
+    <!-- <img src="https://raw.githubusercontent.com/A-kirami/nonebot-plugin-template/resources/nbp_logo.png" width="180" height="180" alt="logo"> -->
+    <img src="./docs/NoneBotPlugin.svg" width="300" alt="logo">
   </a>
-  <br>
+  <!-- <br>
   <p>
     <img src="https://raw.githubusercontent.com/A-kirami/nonebot-plugin-template/resources/NoneBotPlugin.svg" width="240" alt="logo">
-  </p>
+  </p> -->
 </div>
 
 <div align="center">
