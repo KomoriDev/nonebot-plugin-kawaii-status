@@ -23,6 +23,9 @@ _✨ NoneBot2 服务器状态查看插件 ✨_
 <a href="https://pdm.fming.dev">
   <img src="https://img.shields.io/badge/pdm-managed-blueviolet" alt="pdm-managed">
 </a>
+<a href="https://github.com/nonebot/plugin-alconna">
+  <img src="https://img.shields.io/badge/Alconna-resolved-2564C2" alt="alc-resolved">
+</a>
 
 </div>
 
