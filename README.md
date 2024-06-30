@@ -35,7 +35,21 @@ NoneBot2 服务器状态查看插件
 
 ## 💿 安装
 
+以下提到的方法 任选**其一** 即可
+
+<details open>
+<summary>[推荐] 使用 nb-cli 安装</summary>
+在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
+
 ```bash
+nb plugin install nonebot-plugin-kawaii-status
+```
+
+</details>
+<details>
+<summary>使用包管理器安装</summary>
+
+  ```bash
 pip install nonebot-plugin-kawaii-status
 # or, use poetry
 poetry add nonebot-plugin-kawaii-status
@@ -49,6 +63,8 @@ pdm add nonebot-plugin-kawaii-status
 plugins = ["nonebot_plugin_kawaii_status"]
 ```
 
+</details>
+  
 ## ⚙️ 配置
 
 在项目的配置文件中添加下表中的可选配置
