@@ -35,7 +35,7 @@ NoneBot2 服务器状态查看插件
 
 ## 💿 安装
 
-以下提到的方法 任选**其一** 即可
+以下提到的方法任选 **其一** 即可
 
 <details open>
 <summary>[推荐] 使用 nb-cli 安装</summary>
