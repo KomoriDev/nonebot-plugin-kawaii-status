@@ -1,4 +1,5 @@
-from typing import Literal, TypeAlias
+from typing import Literal
+from typing_extensions import TypeAlias
 
 Color: TypeAlias = Literal[
     "cpu", "ram", "swap", "disk", "nickname", "details", "transparent"
