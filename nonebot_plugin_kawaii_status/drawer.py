@@ -49,7 +49,7 @@ def draw() -> bytes:
 
         cpu, ram, swap, disk = get_status_info()
 
-        cpu_info = f"{cpu.usage}% - {cpu.freq}Ghz [{cpu.core}core]"
+        cpu_info = f"{cpu.usage}% - {cpu.freq}Ghz [{cpu.core} core]"
         ram_info = f"{ram.usage} / {ram.total} GB"
         swap_info = f"{swap.usage} / {swap.total} GB"
         disk_info = f"{disk.usage} / {disk.total} GB"
@@ -64,28 +64,28 @@ def draw() -> bytes:
         content.arc(
             (103, 724, 217, 838),
             start=-90,
-            end=(cpu.usage * 3.6),
+            end=(cpu.usage * 3.6 - 90),
             width=115,
             fill=cpu_color,
         )
         content.arc(
             (103, 878, 217, 992),
             start=-90,
-            end=(ram.usage * 3.6),
+            end=(ram.usage/ram.total *360 -90),
             width=115,
             fill=ram_color,
         )
         content.arc(
             (103, 1032, 217, 1146),
             start=-90,
-            end=(swap.usage * 3.6),
+            end=(swap.usage/swap.total *360 -90),
             width=115,
             fill=swap_color,
         )
         content.arc(
             (103, 1186, 217, 1300),
             start=-90,
-            end=(disk.usage * 3.6),
+            end=(disk.usage/disk.total *360 -90),
             width=115,
             fill=disk_color,
         )
