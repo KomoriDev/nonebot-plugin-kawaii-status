@@ -8,7 +8,7 @@ class CPUInfo:
     core: int
     """CPU 物理核心数"""
     usage: float
-    """CPU 占用"""
+    """CPU 占用百分比，取值范围(0,100]"""
     freq: float
     """CPU 的时钟速度（单位：GHz）"""
 
@@ -28,7 +28,7 @@ class RAMInfo:
     total: float
     """RAM 总量"""
     usage: float
-    """当前 RAM 占用"""
+    """当前 RAM 占用量/GB"""
 
     @classmethod
     def get_ram_info(cls):
@@ -45,7 +45,7 @@ class SwapMemory:
     total: float
     """Swap 总量"""
     usage: float
-    """当前 Swap 占用"""
+    """当前 Swap 占用量/GB"""
 
     @classmethod
     def get_swap_info(cls):
@@ -62,7 +62,7 @@ class DiskInfo:
     total: float
     """硬盘总量"""
     usage: float
-    """当前硬盘占用"""
+    """当前硬盘占用量/GB"""
 
     @classmethod
     def get_disk_info(cls):
