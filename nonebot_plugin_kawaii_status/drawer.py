@@ -75,13 +75,14 @@ def draw() -> bytes:
             width=115,
             fill=ram_color,
         )
-        content.arc(
-            (103, 1032, 217, 1146),
-            start=-90,
-            end=(swap.usage / swap.total * 360 - 90),
-            width=115,
-            fill=swap_color,
-        )
+        if swap.total > 0:
+            content.arc(
+                (103, 1032, 217, 1146),
+                start=-90,
+                end=(swap.usage / swap.total * 360 - 90),
+                width=115,
+                fill=swap_color,
+            )
         content.arc(
             (103, 1186, 217, 1300),
             start=-90,
