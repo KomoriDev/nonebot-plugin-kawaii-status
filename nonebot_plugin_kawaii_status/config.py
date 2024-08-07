@@ -1,4 +1,5 @@
 from pydantic import Field, BaseModel
+from nonebot.plugin import get_plugin_config
 
 
 class ScopedConfig(BaseModel):
@@ -12,3 +13,6 @@ class ScopedConfig(BaseModel):
 class Config(BaseModel):
     status: ScopedConfig = Field(default_factory=ScopedConfig)
     """Kawaii Status Config"""
+
+
+config: ScopedConfig = get_plugin_config(Config).status

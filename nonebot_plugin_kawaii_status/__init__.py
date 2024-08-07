@@ -1,15 +1,16 @@
 """运行状态"""
 
+from nonebot import require
 from nonebot.rule import Rule
 from nonebot.permission import SUPERUSER
-from nonebot import require, get_plugin_config
 from nonebot.plugin import PluginMetadata, inherit_supported_adapters
 
 require("nonebot_plugin_alconna")
 from nonebot_plugin_alconna import Command
 from nonebot_plugin_alconna.uniseg import UniMessage
 
-from .config import Config, ScopedConfig
+from .config import Config
+from .config import config as plugin_config
 
 __version__ = "0.1.7"
 __plugin_meta__ = PluginMetadata(
@@ -30,11 +31,9 @@ __plugin_meta__ = PluginMetadata(
 
 from .drawer import draw
 
-config: ScopedConfig = get_plugin_config(Config).status
-
 
 def to_me() -> Rule:
-    if config.to_me:
+    if plugin_config.to_me:
         from nonebot.rule import to_me
 
         return to_me()
@@ -53,6 +52,6 @@ status = (
         rule=to_me(),
         aliases={"状态", "运行状态"},
         use_cmd_start=True,
-        permission=SUPERUSER if config.only_superuser else None,
+        permission=SUPERUSER if plugin_config.only_superuser else None,
     )
 )
