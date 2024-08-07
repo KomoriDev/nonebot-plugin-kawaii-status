@@ -13,5 +13,16 @@
   "contributorsSortAlphabetically": false,
   "linkToUsage": false,
   "skipCi": true,
-  "commitType": "docs"
+  "commitType": "docs",
+  "contributors": [
+    {
+      "login": "kndxhz",
+      "name": "可耐的小伙纸",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113306265?v=4",
+      "profile": "http://kndxhz.cn",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ]
 }
