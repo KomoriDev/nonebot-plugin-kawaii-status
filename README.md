@@ -94,8 +94,13 @@ plugins = ["nonebot_plugin_kawaii_status"]
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
-[![All Contributors](https://img.shields.io/github/contributors/KomoriDev/nonebot-plugin-kawaii-status?color=ee8449&style=flat-square)](#contributors)
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://kndxhz.cn"><img src="https://avatars.githubusercontent.com/u/113306265?v=4?s=80" width="80px;" alt="可耐的小伙纸"/><br /><sub><b>可耐的小伙纸</b></sub></a><br /><a href="https://github.com/KomoriDev/nonebot-plugin-kawaii-status/commits?author=kndxhz" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
