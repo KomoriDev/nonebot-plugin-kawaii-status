@@ -85,9 +85,22 @@ plugins = ["nonebot_plugin_kawaii_status"]
 
 <img src="./docs/renderings.jpg" height="500" alt="renderings"/>
 
-## 鸣谢
+## 💖 鸣谢
 
 - [`SoraBot`](https://github.com/netsora/SoraBot)：基于 Nonebot2 开发，互通多平台，超可爱的林汐酱 ~~（自产自销）~~
+
+### 贡献者们
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+[![All Contributors](https://img.shields.io/github/contributors/KomoriDev/nonebot-plugin-kawaii-status?color=ee8449&style=flat-square)](#contributors)
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## 许可证
 

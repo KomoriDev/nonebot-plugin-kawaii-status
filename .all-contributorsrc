@@ -1,0 +1,17 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "projectName": "nonebot-plugin-kawaii-status",
+  "projectOwner": "KomoriDev",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "imageSize": 80,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributorsSortAlphabetically": false,
+  "linkToUsage": false,
+  "skipCi": true,
+  "commitType": "docs"
+}
