@@ -91,6 +91,14 @@ plugins = ["nonebot_plugin_kawaii_status"]
 
 ### 贡献者们
 
+<!-- prettier-ignore-start -->
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/github/contributors/KomoriDev/nonebot-plugin-kawaii-status?color=ee8449&style=flat-square)](#贡献者们)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- prettier-ignore-end -->
+
+感谢这些大佬对本项目作出的贡献:
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
