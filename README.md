@@ -99,6 +99,7 @@ plugins = ["nonebot_plugin_kawaii_status"]
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/KomoriDev"><img src="https://avatars.githubusercontent.com/u/110453675?v=4?s=80" width="80px;" alt="Komorebi"/><br /><sub><b>Komorebi</b></sub></a><br /><a href="https://github.com/KomoriDev/nonebot-plugin-kawaii-status/commits?author=KomoriDev" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://kndxhz.cn"><img src="https://avatars.githubusercontent.com/u/113306265?v=4?s=80" width="80px;" alt="可耐的小伙纸"/><br /><sub><b>可耐的小伙纸</b></sub></a><br /><a href="https://github.com/KomoriDev/nonebot-plugin-kawaii-status/commits?author=kndxhz" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/FlipWind"><img src="https://avatars.githubusercontent.com/u/89458091?v=4?s=80" width="80px;" alt="FlipWind"/><br /><sub><b>FlipWind</b></sub></a><br /><a href="https://github.com/KomoriDev/nonebot-plugin-kawaii-status/issues?q=author%3AFlipWind" title="Bug reports">🐛</a> <a href="https://github.com/KomoriDev/nonebot-plugin-kawaii-status/commits?author=FlipWind" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
