@@ -44,6 +44,7 @@ NoneBot2 服务器状态查看插件
 ```bash
 nb plugin install nonebot-plugin-kawaii-status
 ```
+
 </details>
 <details>
 <summary>使用包管理器安装</summary>
@@ -55,13 +56,15 @@ poetry add nonebot-plugin-kawaii-status
 # or, use pdm
 pdm add nonebot-plugin-kawaii-status
 ```
+
 打开 NoneBot 项目根目录下的配置文件, 在 `[plugin]` 部分追加写入
 
 ```toml
 plugins = ["nonebot_plugin_kawaii_status"]
 ```
+
 </details>
-  
+
 ## ⚙️ 配置
 
 在项目的配置文件中添加下表中的可选配置
