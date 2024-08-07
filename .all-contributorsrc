@@ -13,5 +13,16 @@
   "contributorsSortAlphabetically": false,
   "linkToUsage": false,
   "skipCi": true,
-  "commitType": "docs"
+  "commitType": "docs",
+  "contributors": [
+    {
+      "login": "KomoriDev",
+      "name": "Komorebi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110453675?v=4",
+      "profile": "https://github.com/KomoriDev",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
 }
