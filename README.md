@@ -94,8 +94,13 @@ plugins = ["nonebot_plugin_kawaii_status"]
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
-[![All Contributors](https://img.shields.io/github/contributors/KomoriDev/nonebot-plugin-kawaii-status?color=ee8449&style=flat-square)](#contributors)
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/FlipWind"><img src="https://avatars.githubusercontent.com/u/89458091?v=4?s=80" width="80px;" alt="FlipWind"/><br /><sub><b>FlipWind</b></sub></a><br /><a href="https://github.com/KomoriDev/nonebot-plugin-kawaii-status/issues?q=author%3AFlipWind" title="Bug reports">🐛</a> <a href="https://github.com/KomoriDev/nonebot-plugin-kawaii-status/commits?author=FlipWind" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
