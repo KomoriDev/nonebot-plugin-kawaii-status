@@ -98,6 +98,7 @@ plugins = ["nonebot_plugin_kawaii_status"]
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/KomoriDev"><img src="https://avatars.githubusercontent.com/u/110453675?v=4?s=80" width="80px;" alt="Komorebi"/><br /><sub><b>Komorebi</b></sub></a><br /><a href="https://github.com/KomoriDev/nonebot-plugin-kawaii-status/commits?author=KomoriDev" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/shoucandanghehe"><img src="https://avatars.githubusercontent.com/u/51957264?v=4?s=80" width="80px;" alt="呵呵です"/><br /><sub><b>呵呵です</b></sub></a><br /><a href="https://github.com/KomoriDev/nonebot-plugin-kawaii-status/issues?q=author%3Ashoucandanghehe" title="Bug reports">🐛</a> <a href="https://github.com/KomoriDev/nonebot-plugin-kawaii-status/commits?author=shoucandanghehe" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
