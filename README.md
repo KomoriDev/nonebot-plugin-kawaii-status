@@ -118,6 +118,8 @@ plugins = ["nonebot_plugin_kawaii_status"]
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+_本段符合 [all-contributors](https://allcontributors.org/) 规范_
+
 ## 许可证
 
 本项目使用 [MIT](./LICENSE) 许可证开源
