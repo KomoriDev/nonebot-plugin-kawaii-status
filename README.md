@@ -27,6 +27,11 @@ _✨ NoneBot2 服务器状态查看插件 ✨_
   <img src="https://img.shields.io/badge/Alconna-resolved-2564C2" alt="alc-resolved">
 </a>
 
+<br/>
+
+[![NoneBot Registry](https://img.shields.io/endpoint?url=https%3A%2F%2Fnbbdg.lgc2333.top%2Fplugin%2Fnonebot-plugin-kawaii-status)](https://registry.nonebot.dev/plugin/nonebot-plugin-kawaii-status:nonebot_plugin_kawaii_status)
+[![Supported Adapters](https://img.shields.io/endpoint?url=https%3A%2F%2Fnbbdg.lgc2333.top%2Fplugin-adapters%2Fnonebot-plugin-kawaii-status)](https://registry.nonebot.dev/plugin/nonebot-plugin-kawaii-status:nonebot_plugin_kawaii_status)
+
 </div>
 
 ## 📖 介绍
