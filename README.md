@@ -41,7 +41,7 @@ _✨ NoneBot2 服务器状态查看插件 ✨_
   <strong>🌎 演示与预览</strong>
 </a>
 &nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="#安装">
+<a href="#-安装">
   <strong>📦️ 下载插件</strong>
 </a>
 &nbsp;&nbsp;|&nbsp;&nbsp;
