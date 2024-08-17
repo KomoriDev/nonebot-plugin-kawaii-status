@@ -2,7 +2,7 @@
 <div align="center">
   <a href="https://v2.nonebot.dev/store">
     <!-- <img src="https://raw.githubusercontent.com/A-kirami/nonebot-plugin-template/resources/nbp_logo.png" width="180" height="180" alt="logo"> -->
-    <img src="./docs/NoneBotPlugin.svg" width="300" alt="logo">
+    <img src="./docs/NoneBotPlugin.svg" width="300" alt="logo" />
   </a>
   <!-- <br>
   <p>
@@ -17,20 +17,37 @@
 _✨ NoneBot2 服务器状态查看插件 ✨_
 
 <a href="">
-  <img src="https://img.shields.io/pypi/v/nonebot-plugin-kawaii-status.svg" alt="pypi"
+  <img src="https://img.shields.io/pypi/v/nonebot-plugin-kawaii-status.svg" alt="pypi" />
 </a>
-<img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="python">
+<img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="python" />
 <a href="https://pdm.fming.dev">
-  <img src="https://img.shields.io/badge/pdm-managed-blueviolet" alt="pdm-managed">
+  <img src="https://img.shields.io/badge/pdm-managed-blueviolet" alt="pdm-managed" />
 </a>
 <a href="https://github.com/nonebot/plugin-alconna">
-  <img src="https://img.shields.io/badge/Alconna-resolved-2564C2" alt="alc-resolved">
+  <img src="https://img.shields.io/badge/Alconna-resolved-2564C2" alt="alc-resolved" />
 </a>
 
 <br/>
 
-[![NoneBot Registry](https://img.shields.io/endpoint?url=https%3A%2F%2Fnbbdg.lgc2333.top%2Fplugin%2Fnonebot-plugin-kawaii-status)](https://registry.nonebot.dev/plugin/nonebot-plugin-kawaii-status:nonebot_plugin_kawaii_status)
-[![Supported Adapters](https://img.shields.io/endpoint?url=https%3A%2F%2Fnbbdg.lgc2333.top%2Fplugin-adapters%2Fnonebot-plugin-kawaii-status)](https://registry.nonebot.dev/plugin/nonebot-plugin-kawaii-status:nonebot_plugin_kawaii_status)
+<a href="https://registry.nonebot.dev/plugin/nonebot-plugin-kawaii-status:nonebot_plugin_kawaii_status">
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fnbbdg.lgc2333.top%2Fplugin%2Fnonebot-plugin-kawaii-status" alt="NoneBot Registry" />
+</a>
+<a href="https://registry.nonebot.dev/plugin/nonebot-plugin-kawaii-status:nonebot_plugin_kawaii_status">
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fnbbdg.lgc2333.top%2Fplugin-adapters%2Fnonebot-plugin-kawaii-status" alt="Supported Adapters" />
+</a>
+
+<br />
+<a href="#效果图">
+  <strong>🌎 演示与预览</strong>
+</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#安装">
+  <strong>📦️ 下载插件</strong>
+</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://qm.qq.com/q/Vuipof2zug" target="__blank">
+  <strong>💬 加入交流群</strong>
+</a>
 
 </div>
 
