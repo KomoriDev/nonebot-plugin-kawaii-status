@@ -8,7 +8,7 @@ authors = [
     { name = "KomoriDev", email = "mute231010@gmail.com" },
 ]
 dependencies = [
-    "nonebot-plugin-alconna>=0.37.0",
+    "nonebot-plugin-alconna>=0.52.1",
     "psutil>=5.9.8",
     "pillow>=10.2.0",
     "nonebot2[fastapi]>=2.2.0",
