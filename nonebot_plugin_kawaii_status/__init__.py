@@ -12,7 +12,7 @@ from nonebot_plugin_alconna.uniseg import UniMessage
 from .config import Config
 from .config import config as plugin_config
 
-__version__ = "0.1.8"
+__version__ = "0.1.9"
 __plugin_meta__ = PluginMetadata(
     name="运行状态",
     description="NoneBot2 服务器状态查看插件",
