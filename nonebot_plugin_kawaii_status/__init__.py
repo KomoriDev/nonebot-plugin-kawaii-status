@@ -45,10 +45,11 @@ def to_me() -> Rule:
 
 
 status = (
-    Command("status", help_text="查看林汐运行状态")
+    Command("status", help_text="查看 Bot 运行状态")
     .usage("/status\n/状态")
     .action(lambda: UniMessage.image(raw=draw()))
     .build(
+        block=True,
         rule=to_me(),
         aliases={"状态", "运行状态"},
         use_cmd_start=True,
