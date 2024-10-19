@@ -3,7 +3,6 @@ from nonebot.plugin import get_plugin_config
 
 
 class ScopedConfig(BaseModel):
-
     only_superuser: bool = Field(default=False)
     """是否只能由 SUPERUSER 触发指令"""
     to_me: bool = Field(default=False)
