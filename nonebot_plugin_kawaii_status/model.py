@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 
 import psutil
+import cpuinfo
 
 
 @dataclass
@@ -17,6 +18,9 @@ class CPUInfo:
         cpu_core = psutil.cpu_count(logical=False)
         cpu_usage = psutil.cpu_percent(interval=1)
         cpu_freq = round(psutil.cpu_freq().current / 1000, 2)
+
+        if cpu_core is None:
+            cpu_core = cpuinfo.get_cpu_info()["count"]
 
         return CPUInfo(core=cpu_core, usage=cpu_usage, freq=cpu_freq)
 
