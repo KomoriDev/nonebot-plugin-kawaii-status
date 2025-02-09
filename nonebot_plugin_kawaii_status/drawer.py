@@ -11,13 +11,7 @@ from nonebot import __version__ as __nb_version__
 from .model import get_status_info
 from .utils import truncate_string
 from . import __version__ as __status_version__
-from .path import (
-    bg_img_path,
-    adlam_font_path,
-    baotu_font_path,
-    marker_img_path,
-    spicy_font_path,
-)
+from .data_source import format_uptime, get_bot_uptime
 from .color import (
     cpu_color,
     ram_color,
@@ -26,6 +20,14 @@ from .color import (
     details_color,
     nickname_color,
     transparent_color,
+)
+from .path import (
+    bg_img_path,
+    adlam_font_path,
+    baotu_font_path,
+    marker_img_path,
+    spicy_font_path,
+    dingtalk_font_path,
 )
 
 bot_config = get_plugin_config(BotConfig)
@@ -36,6 +38,7 @@ nickname = list(bot_config.nickname)[0] if bot_config.nickname else "unknown"
 adlam_fnt = ImageFont.truetype(str(adlam_font_path), 36)
 spicy_fnt = ImageFont.truetype(str(spicy_font_path), 38)
 baotu_fnt = ImageFont.truetype(str(baotu_font_path), 64)
+dingtalk_fnt = ImageFont.truetype(str(dingtalk_font_path), 38)
 
 
 def draw() -> bytes:
@@ -118,6 +121,12 @@ def draw() -> bytes:
             (352, 1537),
             f"{len(loaded_plugins)} loaded",
             font=adlam_fnt,
+            fill=details_color,
+        )
+        content.text(
+            (687, 1703),
+            format_uptime(get_bot_uptime()),
+            font=dingtalk_fnt,
             fill=details_color,
         )
 
