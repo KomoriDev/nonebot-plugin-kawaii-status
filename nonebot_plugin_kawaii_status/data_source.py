@@ -35,6 +35,9 @@ def get_bot_uptime() -> int:
 def format_uptime(total_seconds: int) -> str:
     """将 Bot 运行时长转换为可读形式"""
     hours = total_seconds // 3600
-    minutes = (total_seconds % 3600) // 60
-
-    return f"已运行 {hours} 时 {minutes} 分"
+    if hours >= 24:
+        days, remaining_hours = divmod(hours, 24)
+        return f"已运行 {days} 天 {remaining_hours} 小时"
+    else:
+        minutes = (total_seconds % 3600) // 60
+        return f"已运行 {hours} 时 {minutes} 分"
