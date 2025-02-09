@@ -124,10 +124,11 @@ def draw() -> bytes:
             fill=details_color,
         )
         content.text(
-            (687, 1703),
+            (957, 1703),
             format_uptime(get_bot_uptime()),
             font=dingtalk_fnt,
             fill=details_color,
+            anchor="ra",
         )
 
         nickname_length = baotu_fnt.getlength(nickname)
