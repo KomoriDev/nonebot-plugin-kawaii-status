@@ -55,6 +55,19 @@ _✨ NoneBot2 服务器状态查看插件 ✨_
 
 NoneBot2 服务器状态查看插件
 
+> [!IMPORTANT]
+> **收藏项目**，你将从 GitHub 上无延迟地接收所有发布通知～⭐️
+
+<img width="100%" src="https://starify.komoridevs.icu/api/starify?owner=KomoriDev&repo=nonebot-plugin-kawaii-status" alt="starify" />
+
+<details>
+  <summary><kbd>Star History</kbd></summary>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=KomoriDev/nonebot-plugin-kawaii-status&theme=dark&type=Date" />
+    <img width="100%" src="https://star-history.com/#KomoriDev/nonebot-plugin-kawaii-status&Date" />
+  </picture>
+</details>
+
 ## 💿 安装
 
 以下提到的方法任选 **其一** 即可
@@ -110,6 +123,7 @@ plugins = ["nonebot_plugin_kawaii_status"]
 ## 💖 鸣谢
 
 - [`SoraBot`](https://github.com/netsora/SoraBot)：基于 Nonebot2 开发，互通多平台，超可爱的林汐酱 ~~（自产自销）~~
+- [`KomoriDev/Starify`](https://github.com/KomoriDev/Starify)：提供了引人注目的徽章
 
 ### 贡献者们
 
