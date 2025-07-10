@@ -118,7 +118,7 @@ plugins = ["nonebot_plugin_kawaii_status"]
 
 ### 效果图
 
-<img src="./docs/renderings.jpg" height="500" alt="renderings"/>
+<img src="./docs/renderings.png" height="500" alt="renderings"/>
 
 ## 💖 鸣谢
 
